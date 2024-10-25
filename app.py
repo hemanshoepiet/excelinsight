@@ -232,7 +232,7 @@ st.plotly_chart(scatter_chart)
 st.subheader("Developing Team")
 co1, co2,co3 = st.columns(3)
 
-image = Image.open("himanshuarora.png")
+image = Image.open("IMG-20241025-WA0014.jpg")
 co1.image(
     image,
     caption="Himanshu Arora - Team Leader",
@@ -240,14 +240,14 @@ co1.image(
     use_column_width=True
 
 )
-image = Image.open("krish.png")
+image = Image.open("IMG-20241025-WA0013.jpg")
 co2.image(
     image,
     caption="Krish Verma",
     width=100,
     use_column_width=True
 )
-image = Image.open("sahil.png")
+image = Image.open("IMG-20241025-WA0012.jpg")
 co3.image(
     image,
     caption="Sahil",
